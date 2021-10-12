@@ -5,9 +5,13 @@
 
 ## Command to update your system :~
 ```
-apt update -y ; apt upgrade -y
+apt update -y
 
 ```
+```
+apt upgrade -y
+```
+
 ## Commands to install & Setup :~
 
 ```
