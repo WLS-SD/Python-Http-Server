@@ -19,7 +19,7 @@ cd ; apt install git -y ; apt install python -y ; git clone https://github.com/W
 ```
 
 
-# Note You Can Easily Access Your Server From Your Local Network (LAN) , if you want to Access Your Computer From World Wide (WAN/WWW) then You Can Use Port Forwarding Through Router by Giving Permission to Firewall , or You can Choose Port Forwarding Services like Ngrok , LocalXpose etc ..etc....
+## Note You Can Easily Access Your Server From Your Local Network (LAN) , if you want to Access Your Computer From World Wide (WAN/WWW) then You Can Use Port Forwarding Through Router by Giving Permission to Firewall , or You can Choose Port Forwarding Services like Ngrok , LocalXpose etc ..etc....
 
 
 # Connect with me:
