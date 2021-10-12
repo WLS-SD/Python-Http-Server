@@ -24,9 +24,6 @@ echo "Http Server is Started on Port $user_port"
 python -m http.server $user_port
 
 
-
-#echo "You Can Only Choose Y/N , Y is for Yes (Default port) & N is for No (Custom Port)"
-
 fi
 
 
