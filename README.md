@@ -4,7 +4,9 @@
 # install This Tool in Your Computer System by just pasting One Line of Commands.
 
 `
+
 apt update -y ; apt upgrade -y ; apt update -y ; apt install python -y ; apt install git -y ; cd ; git clone https://github.com/WLS-SD/Python-Http-Server ; cd Python-Http-Server chmod +x * ; ./setup.sh ; ./pyserver.sh
+
 
 `
 
