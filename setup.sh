@@ -97,5 +97,5 @@ LightCyan="\e[96m"
 
 printf "${LightCyan}"
 echo 'To Use PyServer Follow the steps :~'
-echo 'Step 1 :~~ Enter exit command to Exit Termux app and Relaunch termux app &'
-echo "Step 2 :~~ To Start Python-Http-Server execute --->>> pyserver"
+echo 'Step 1 :~~ Enter 'exit' command to Exit Termux app and Relaunch termux app &'
+echo "Step 2 :~~ To Start Python-Http-Server execute --->>> 'pyserver'"
