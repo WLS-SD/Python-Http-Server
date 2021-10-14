@@ -14,16 +14,10 @@ apt upgrade -y
 
 ## Commands to install & Setup :~
 
-##### For Termux(Android) Users :~~
 ```
-cd ; apt install git -y ; apt install python -y ; git clone https://github.com/WLS-SD/Python-Http-Server ; cd Python-Http-Server ; chmod +x * ; ./setup-termux
+cd ; apt install git -y ; apt install python -y ; git clone https://github.com/WLS-SD/Python-Http-Server ; cd Python-Http-Server ; chmod +x * ; ./setup
 ```
 
-
-##### For Linux Systems (Works on All Distros) :~~
-```
-Sorry under development 
-```
 
 
 ### Note You Can Easily Access Your Server From Your Local Network (LAN) , if you want to Access Your Computer From World Wide (WAN/WWW) then You Can Use Port Forwarding Through Router by Giving Permission to Firewall , or You can Choose Port Forwarding Services like Ngrok , LocalXpose etc ..etc....
