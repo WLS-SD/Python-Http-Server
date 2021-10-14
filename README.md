@@ -14,8 +14,15 @@ apt upgrade -y
 
 ## Commands to install & Setup :~
 
+##### For Termux(Android) Users :~~
 ```
-cd ; apt install git -y ; apt install python -y ; git clone https://github.com/WLS-SD/Python-Http-Server ; cd Python-Http-Server ; chmod +x * ; ./setup.sh
+cd ; apt install git -y ; apt install python -y ; git clone https://github.com/WLS-SD/Python-Http-Server ; cd Python-Http-Server ; chmod +x * ; ./setup-termux
+```
+
+
+##### For Linux Systems (Works on All Distros) :~~
+```
+Sorry under development 
 ```
 
 
