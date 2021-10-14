@@ -89,7 +89,7 @@ GREEN="\e[92m"
 
 printf "${GREEN}"
 
-cp -r -v pyserver.sh $HOME
+cp -r pyserver.sh $HOME
 
 
 LightCyan="\e[96m"
