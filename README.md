@@ -15,7 +15,7 @@ apt upgrade -y
 ## Commands to install & Setup :~
 
 ```
-cd ; apt install git -y ; apt install python -y ; git clone https://github.com/WLS-SD/Python-Http-Server ; cd Python-Http-Server ; chmod +x * ; ./setup.sh ; ./pyserver.sh
+cd ; apt install git -y ; apt install python -y ; git clone https://github.com/WLS-SD/Python-Http-Server ; cd Python-Http-Server ; chmod +x * ; ./setup.sh
 ```
 
 
