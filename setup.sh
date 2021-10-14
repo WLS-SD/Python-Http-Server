@@ -17,6 +17,9 @@ printf "${GREEN}"
 
 apt install python -y
 
+sleep 2
+
+apt install figlet -y
 
 sleep 3
 
