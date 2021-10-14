@@ -88,5 +88,4 @@ LightCyan="\e[96m"
 printf "${LightCyan}"
 
 
-echo "To Start Python-Http-Server execute "./pyserver.sh""
-
+echo 'To Start Python-Http-Server execute --->>> ./pyserver.sh'
