@@ -121,7 +121,9 @@ python -m http.server $user_port
 
 
 else
-echo echo "You Can Only Choose Y/N , Y is for Yes (Default port) & N is for No (Custom Port)"
+Light_Magenta="\e[95m"
+printf "${Light_Magenta}"
+echo "You Can Only Choose Y/N , Y is for Yes (Default port) & N is for No (Custom Port)"
 
 fi
 
