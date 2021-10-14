@@ -1,5 +1,32 @@
 #!/bin/bash
 
+GREEN="\e[92m"
+
+
+printf "${GREEN}"
+
+for name in pyserver
+do
+        chmod u+x "${name}.sh" &&
+        echo "Made '${name}.sh'has become executable successfully" ||
+        echo "Failed to make '${name}.sh'has become executable (code:${?})"
+
+                                                                                                         >
+
+        echo "Checking to see if alias ${name} exists..."
+        response=$(grep "${name}=" ~/../usr/etc/bash.bashrc)
+        if [ ! -n "$response" ]
+        then
+                echo "Alias '${name}' does not exist"
+                echo "Creating alias '${name}'..."
+                echo -e "alias ${name}=\"~/${name}.sh\"" >> ~/../usr/etc/bash.bashrc &&
+                echo "Alias '${name}' created successfully" ||
+                echo "Failed to create alias '${name}' (code:${?})"
+        else
+                echo "Alias '${name}' already exists"
+        fi
+done
+
 
 LightCyan="\e[96m"
 
@@ -76,16 +103,18 @@ sleep 0.2
 echo "This Tool is Developed by https://github.com/WLS-SD under GNU GENERAL PUBLIC LICENSE Version 3."
 
 
+GREEN="\e[92m"
 
 
+printf "${GREEN}"
 
-
+cp -r -v pyserver.sh $HOME
 
 
 LightCyan="\e[96m"
 
 
 printf "${LightCyan}"
-
-
-printf "To Start Python-Http-Server execute --->>> ./pyserver.sh \n"
+echo 'To Use PyServer Follow the steps :~'
+echo 'Step 1 :~~ Enter exit command to Exit Termux app and Relaunch termux app &'
+echo "Step 2 :~~ To Start Python-Http-Server execute --->>> pyserver"
