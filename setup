@@ -1,5 +1,4 @@
 #!/bin/bash
-PATH=/bin:/usr/bin:
 
 
 Light_Magenta="\e[95m"
