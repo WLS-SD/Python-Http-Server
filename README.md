@@ -6,7 +6,6 @@
 ## Command to update your system :~
 ```
 apt update -y
-
 ```
 ```
 apt upgrade -y
