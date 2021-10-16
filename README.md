@@ -1,5 +1,5 @@
 # Python-Http-Server
-## This tool is used to make a HTTP Server on your Normal Computer Even in Your Android Phone.
+## This tool is used to make a HTTP Server on your Normal Computer and also in Your Android Phone.
 
 # install This Tool in Your Computer System by just pasting One Line of Commands.
 
