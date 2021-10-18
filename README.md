@@ -18,13 +18,22 @@ For installation :~~
 ```
 apt install git -y ; git clone https://github.com/WLS-SD/Python-Http-Server ; cd Python-Http-Server ; chmod +x * ; ./setup.sh && exit
 ```
-
+### Terminal Will Be Closed so open new terminal &
+Now to Start PyServer :~
+```
+pyserver
+```
 
 
 ## For Linux :---
 For installation :~~
 ```
 sudo apt install git -y ; git clone https://github.com/WLS-SD/Python-Http-Server ; cd Python-Http-Server ; chmod +x * ; ./setup.sh && exit
+```
+### Terminal Will Be Closed so open new terminal &
+Now to Start PyServer :~
+```
+pyserver
 ```
 
 ### Note You Can Easily Access Your Server From Your Local Network (LAN) , if you want to Access Your Computer From World Wide (WAN/WWW) then You Can Use Port Forwarding Through Router by Giving Permission to Firewall , or You can Choose Port Forwarding Services like Ngrok , LocalXpose etc ..etc....
