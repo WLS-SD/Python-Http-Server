@@ -91,6 +91,8 @@ GREEN="\e[92m"
 printf "${GREEN}"
 
 cp -r pyserver-termux.sh $HOME
+cd $HOME
+chmod 777 pyserver-termux.sh
               
 
 LightCyan="\e[96m"
